@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Forms</title>
+<link rel="stylesheet" href="css/forms.css">
+<script  src="javascript/forms.js"></script>
+
+</head>
+<body>
+
+    <form>
+		<fieldset>
+            <legend>Form Verification</legend>
+<label for ="fName">First Name:</label>
+            <input type = "text" name = "fName" id = "fName" required><br/>
+            <label for = "lName">Last Name:</label>
+            <input type = "text" name = "lName" id = "lName" required><br/>
+            <label for = "yesNick">Nickname?:</label>
+            <input id="yesNick" name="yesNick" type="checkbox" value="yes" onchange= "nicknameFunction()"/>	<br/>
+              
+<div id = "nick">
+                  <label for = "nickname">Nickname:</label>
+                  <input type = "text" name = "nickname" id = "nickname"><br/>
+            </div>
+<input type = "submit" value = "Verify"/>
+</fieldset>
+
+
+    </form>
+
+
+
+</body>
+</html>

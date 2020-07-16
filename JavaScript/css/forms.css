@@ -1,0 +1,19 @@
+form{
+    margin: 40px auto;
+   text-align: center;
+   background-color: aquamarine;
+
+}
+
+
+input{
+    border:1px solid black;
+}
+input:focus{
+    background-color: #E6E6E6;
+}
+#nick{
+    margin-left: 4%;
+    display:none;
+    width: 50%;
+}
